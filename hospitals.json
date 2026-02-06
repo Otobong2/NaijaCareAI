@@ -1,0 +1,30 @@
+[
+  {
+    "state": "Lagos",
+    "area": "Ikeja",
+    "name": "Lagos State University Teaching Hospital (LASUTH)",
+    "address": "1-5 Oba Akinjobi Way, Ikeja, Lagos",
+    "phone": "08000000000"
+  },
+  {
+    "state": "Lagos",
+    "area": "Yaba",
+    "name": "Federal Medical Centre Ebute-Metta",
+    "address": "Ebute Metta, Lagos",
+    "phone": "08000000000"
+  },
+  {
+    "state": "Abuja",
+    "area": "Garki",
+    "name": "National Hospital Abuja",
+    "address": "Plot 132, Central District, Abuja",
+    "phone": "08000000000"
+  },
+  {
+    "state": "Rivers",
+    "area": "Port Harcourt",
+    "name": "University of Port Harcourt Teaching Hospital (UPTH)",
+    "address": "Alakahia, Port Harcourt, Rivers",
+    "phone": "08000000000"
+  }
+]
