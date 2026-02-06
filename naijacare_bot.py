@@ -50,5 +50,5 @@ def main():
     app.run_polling()
 
 # Correct _name_ check
-if _name_ == "_main_":
+if __name__ == "__main__":  # <-- This line is corrected here
     main()
