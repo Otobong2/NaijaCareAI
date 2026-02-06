@@ -49,6 +49,6 @@ def main():
     print("✅ NaijaCare AI is running...")
     app.run_polling()
 
-# Correct _name_ check
-if __name__ == "__main__":  # <-- This line is corrected here
+# Correct __name__ check
+if __name__ == "__main__":
     main()
