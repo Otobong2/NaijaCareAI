@@ -26,14 +26,14 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Message handler
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_text = update.message.text.lower()
-    
+
     # Simple check if symptom matches hospital data
     response = "Sorry, I don't have an answer yet 🤷‍♂️"
     for key, value in hospitals_data.items():
         if key.lower() in user_text:
             response = f"{value}"
             break
-    
+
     await update.message.reply_text(response)
 
 # Main function
@@ -49,6 +49,6 @@ def main():
     print("✅ NaijaCare AI is running...")
     app.run_polling()
 
-# Correct _name_ check
-if _name_ == "_main_":
+# Correct __name__ check
+if __name__ == "__main__":
     main()
